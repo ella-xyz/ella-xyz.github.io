@@ -1349,15 +1349,7 @@ General Styles - Owlcarousel
 /*--------------------------------------------------------------
 	Header
 --------------------------------------------------------------*/
-.home-section {
-  position: relative;
-  background-color: #fff;
-  background-repeat: repeat;
-  background-position: center center;
-  width: 100%;
-  z-index: 0;
-  background-size: cover;
-}
+
 
 .titan-title-size-1 {
   letter-spacing: 4px;
@@ -3178,8 +3170,31 @@ Google map
   }
 }
 
+  @media only screen and (min-width: 930px) {
+    .home-section {
+      background-image: url('/assets/images/needed/hero.png') !important;
+      position: relative;
+      background-color: #fff;
+      background-repeat: repeat;
+      background-position: center center;
+      width: 100%;
+      z-index: 0;
+      background-size: cover;
+    }
+  }
+
 
   @media only screen and (max-width: 930px) {
+    .home-section {
+      background-image: url('/assets/images/needed/hero_mobile.png') !important;
+      position: relative;
+      background-color: #fff;
+      background-repeat: repeat;
+      background-position: center center;
+      width: 100%;
+      z-index: 0;
+      background-size: cover;
+    }
     .post_img {
       padding-top: 20px;
     }
